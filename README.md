@@ -6,8 +6,11 @@ Flow:
 3. Add an Order Page: Employee can add an order. Amount is calculated automatically using AJAX and employee name is also inserted using details of the current employee logged in.
 4. Reports Page: Employee can view his various Sales reports.
 
-LoginId/Password (employee1): ram/ram123 //
-LoginId/Password (employee1): shyam/shyam123 //
-LoginId/Password (employee1): ghanshyam/ghanshyam123 //
+| Login Id   | Password  |
+| --------|---------|
+| ram  | ram123   |
+| shyam | shyam123 |
+|ghanshyam  | ghanshyam123  |
+
 
 
