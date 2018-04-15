@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Apr 13, 2018 at 12:16 PM
+-- Generation Time: Apr 15, 2018 at 08:14 PM
 -- Server version: 5.7.19
 -- PHP Version: 7.0.23
 
@@ -85,7 +85,30 @@ CREATE TABLE IF NOT EXISTS `order_details` (
   `employee` varchar(50) NOT NULL,
   `date` date NOT NULL,
   PRIMARY KEY (`order_id`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=20 DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `order_details`
+--
+
+INSERT INTO `order_details` (`order_id`, `item_sold`, `quantity`, `amount`, `employee`, `date`) VALUES
+(1, 'Tea', 2, 20, 'Ghanshyam', '2018-04-14'),
+(2, 'Samosa', 2, 30, 'Ghanshyam', '2018-04-14'),
+(6, 'Tea', 3, 30, 'Ram', '2018-04-14'),
+(5, 'Cake', 2, 30, 'Ghanshyam', '2018-04-14'),
+(7, 'Cake', 1, 15, 'Ram', '2018-04-14'),
+(8, 'Cake', 2, 30, 'Ram', '2018-04-14'),
+(9, 'Coffee', 2, 20, 'Ram', '2018-04-14'),
+(10, 'Samosa', 4, 60, 'Ram', '2018-04-14'),
+(11, 'Coffee', 2, 20, 'Ram', '2018-04-15'),
+(12, 'Tea', 3, 30, 'Ram', '2018-04-15'),
+(13, 'Tea', 3, 30, 'Ram', '2018-04-15'),
+(14, 'Samosa', 2, 30, 'Ram', '2018-04-20'),
+(15, 'Tea', 2, 20, 'Ghanshyam', '2018-04-17'),
+(16, 'Cake', 3, 45, 'Shyam', '2018-04-14'),
+(17, 'Coffee', 2, 20, 'Shyam', '2018-04-21'),
+(18, 'Samosa', 4, 60, 'Ghanshyam', '2018-04-16'),
+(19, 'Cake', 2, 30, 'Ghanshyam', '2018-04-17');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
